@@ -1,0 +1,51 @@
+h1{
+color: burlywood;
+
+
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: burlywood;
+}
+
+
+.textoInicio{
+height: auto;
+width: auto;
+padding: 0%;
+margin: 0%;
+color: brown;
+}
+
+body{
+    background-color: brown;
+}
+.fotoInicio{
+    height: auto;
+    width: 100%;
+    border: solid 3px;
+    justify-content: center;
+}
+
+.fotoLocal{
+    border-radius: 10%;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.formulario{
+    color: rgb(57, 44, 44);
+    font: bold;
+    border-top: double 5px;
+    border-bottom: double 5px;
+    border-left: double 5px;
+    border-right: double 5px;
+    
+    }
+   
+ div .carta{
+ background-color: rgb(212, 221, 32);
+} 

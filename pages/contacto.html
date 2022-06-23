@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de java -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="../styles/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="#"><h1 class="textoInicio">PANADERIA SAN JOSE</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/descuento.html">Descuentos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">DESDE 1969</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <main class="container-fluid">
+      <form>
+        <fieldset class="formulario">
+        <legend>
+         Formulario para el usuario
+        </legend>
+       
+    <h3>Contacto</h3> 
+    <label for="nombre y apellido">
+      Nombre y apellido
+     </label>
+     <input type="text" id="nombre_apellido">
+       <hr>
+     <label for="correo electronico">
+      Correo Electrónico
+     </label>
+     <input type="email" id="correo electronico">
+     <hr />
+     <label>
+         Es usted cliente?
+     </label>
+     <span>Si</span>
+     <input type="radio" name="clientes">
+     <span>No</span>
+     <input type="radio" name="clientes">
+     <br>
+     <label for="sucursales">
+      Cual franquicia frecuenta?
+     </label>
+  <select name="sucursal" id="sucursales">Sucursales
+      <option selected="selected">Sucursal</option>
+      <option>Dorrego</option>
+      <option>El Palomar</option>
+      <option>Ramos Mejia</option>
+      <option>Ninguna</option>
+  </select>
+  
+  <hr>
+  <h4>Comentarios</h4>
+  <textarea></textarea>
+  <br>
+ 
+ 
+      <label>
+      Desea recibir promociones via e-mail?
+     </label>
+     <br>
+        Si<input type="checkbox" name="validacion">
+        Terminos y condiciones de uso<input type="checkbox" name="validacion">
+        <br>
+     <input type="submit"><input type="reset">
+      </fieldset>
+  </form>
+   </main>
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
