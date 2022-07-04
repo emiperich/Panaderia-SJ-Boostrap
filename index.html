@@ -7,10 +7,12 @@
     <!-- Link de java -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="./styles/styles.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <title>Perich-SJ-boostrap</title>
 </head>
 <body id="fondoEntero">
- <nav class="navbar navbar-expand-lg bg-warning">
-    <div class="container-fluid" >
+ <nav class="navbar navbar-expand-lg bg-warning" style="z-index: 5;">
+    <div class="container-fluid estiloNav" >
       <a class="navbar-brand" href="#"><h1 class="textoInicio">PANADERIA SAN JOSE</h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +26,7 @@
             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/productos.html">Productos</a>
+            <a class="nav-link colorin" href="./pages/productos.html">Productos</a>
             <li class="nav-item">
               <a class="nav-link" href="./pages/descuento.html">Descuentos</a>
             </li>
@@ -40,16 +42,17 @@
     </div>
   </nav>
   <header class="fotoInicio">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <br>
+    <div id="carouselExampleControls" class="carousel slide justify-content-center" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/pan.jpg" class="d-block w-100" alt="muchospanes">
+        <img src="./assets/pan.jpg" class="d-block w-100 fotoComida" alt="muchospanes">
       </div>
       <div class="carousel-item">
-        <img src="assets\pandos.jpg" class="d-block w-100" alt="muchosbizcochitos">
+        <img src="./assets/nuevopandos.jpg" class="d-block w-100 fotoComida" alt="muchosbizcochitos">
       </div>
       <div class="carousel-item">
-        <img src="assets\pantres.webp" class="d-block w-100" alt="panesvariados">
+        <img src="./assets/nuevopantres.jpg" class="d-block w-100 fotoComida" alt="panesvariados">
       </div>
     </div>
    </div>
@@ -63,93 +66,69 @@
    </button>
     </div>
   </header>
-   
+   <article>
+    <br>
    <h2>DONDE ESTAMOS</h2>
-  <article>
+    <br>
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6"><img src="assets\local 1.jpg" alt="localsarmiento" class="fotoLocal"></div>
-        <div class="col-12 col-sm-6">Congreso 360, Villa Sarmiento, es nuesta sucursal mas nueva, abierta desde el 2010.
-          Horarios Martes a Domingos de 7:00HS A 13:00HS Y 16:00HS A 20:00HS</div>
+        <div class="col-12 col-sm-6"><p class="fw-bold">Congreso 360, Villa Sarmiento, es nuesta sucursal mas nueva, abierta desde el 2010.
+          Horarios Martes a Domingos de 7:00HS A 13:00HS Y 16:00HS A 20:00HS</p>
+          <iframe class="col-12 col-sm-6" src="https://goo.gl/maps/wTNvFPtn4aeJFgNf9"
+          width="600"
+          height="300"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe></div>
       </div><br>
       <div class="row">
         <div class="col-12 col-sm-6"><img src="assets\local 3.jpg" alt="localelpalomar" class="fotoLocal"></div>
-        <div class="col-12 col-sm-6"><p>Amato 1313, El palomar, fue la primer sucursal que abrimos, gracias al apoyo diario de todos nuestros clientes, activos desde 1997.
-          Horarios Martes a Domingos de 7:00HS A 13:00HS Y 16:00HS A 20:00HS</p></div>
+        <div class="col-12 col-sm-6"><p class="fw-bold">Amato 1313, El palomar, fue la primer sucursal que abrimos, gracias al apoyo diario de todos nuestros clientes, activos desde 1997.
+          Horarios Martes a Domingos de 7:00HS A 13:00HS Y 16:00HS A 20:00HS</p>
+          <iframe class="col-12 col-sm-6" src="https://goo.gl/maps/wTNvFPtn4aeJFgNf9"
+          width="600"
+          height="300"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe></div>
       </div><br>
       <div class="row">
         <div class="col-12 col-sm-6"><img src="assets\local 2.jpg" alt="localdorrego" class="fotoLocal"></div>
-        <div class="col-12 col-sm-6"><p>Primer comercio, donde todo nació, de aqui producimos y distribuimos a nuestras sucursales, mismos dueños desde 1969
+        <div class="col-12 col-sm-6"><p class="fw-bold">Primer comercio, donde todo nació, de aqui producimos y distribuimos a nuestras sucursales, mismos dueños desde 1969
           Horarios Miercoles a Domingos de 7:00HS A 13:00HS Y 16:00HS A 20:00HS</p>
+          <iframe class="col-12 col-sm-6" src="https://goo.gl/maps/wTNvFPtn4aeJFgNf9"
+          width="600"
+          height="300"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </div>
   </article>
-     
+
+  <footer class="container-fluid contenedorFooter">
+    <div class="row"><h3>Compartinos en las Redes!</h3>
+      <div class="redes">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=www.facebook.com">Facebook</a>
+        <a href="https://twitter.com/intent/tweet?text=">Twitter</a>
       
-
-
-
-
-
-
-
-
-
-
-
-
+     </div>
+    </div>
+  </footer>
+  <!-- Animaciones-->
+  <script src="js/wow.min.js"></script>
+  <script>
+     new WOW().init();
+  </script>
   
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer>
-
-
-</footer>
-
-
-
-
-
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
