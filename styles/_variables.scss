@@ -1,0 +1,6 @@
+$fuenteContenido: rgb(185, 180, 12);
+
+@mixin wh ($width,$height){
+    width: $width;
+    height: $height;
+}

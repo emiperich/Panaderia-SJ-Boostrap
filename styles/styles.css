@@ -8,36 +8,32 @@ h1 {
 }
 
 header div .fotoComida {
-  border: 10px dotted rgb(255, 179, 0);
+  border: 10px dotted rgb(185, 180, 12);
   width: 50px;
-  height: 500px;
+  height: 400px;
 }
 
 article h2 {
   text-decoration: underline;
-  color: yellow;
+  color: rgb(185, 180, 12);
 }
 article p {
   font-size: 100%;
-  color: rgb(184, 200, 43);
+  color: rgb(185, 180, 12);
 }
-article .fotoLocal {
-  border: 5px black double;
-  height: 300px;
+article .fotoLocal, article iframe {
+  border-radius: 15px;
+  border: 15px black double;
   width: 400px;
+  height: 300px;
 }
-article iframe {
-  border-radius: 10px;
-  border: 10px solid yellow;
-}
-
 form {
   border: 5px black double;
 }
 
 a:hover {
   color: rgb(230, 91, 11);
-  background-color: yellow;
+  background-color: rgb(185, 180, 12);
 }
 
 main div img {
@@ -49,26 +45,13 @@ main div p {
   font-weight: bold;
 }
 main .carta {
-  background-color: yellow;
+  background-color: rgb(185, 180, 12);
 }
 
 footer {
-  background-color: blanchedalmond;
-  margin: 10%;
-  margin-right: 50%;
-}
-
-element.style{
-  z-index: 5;
-}
-
-.contenedorFooter{
-  background-color: blanchedalmond;
-  margin-bottom: 0%;
-}
-
-nav .estiloNav{
-  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(185, 180, 12);
 }
 
 /*# sourceMappingURL=styles.css.map */
